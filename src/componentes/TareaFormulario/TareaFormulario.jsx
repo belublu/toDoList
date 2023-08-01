@@ -22,7 +22,7 @@ const TareaFormulario = (props) => {
         }
 
         props.onSubmit(tareaNueva)
-        setInput("")
+        document.getElementsByTagName("input")[0].value = ""
     }
 
 
