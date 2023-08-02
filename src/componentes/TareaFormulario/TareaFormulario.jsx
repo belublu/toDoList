@@ -39,7 +39,7 @@ const TareaFormulario = (props) => {
                 name="texto"
                 onChange={manejarCambio}
             />
-            <button className='tarea-boton'>Agregar Tarea</button>
+            <button className='tarea-boton'>Agregar</button>
         </form>
     )
 }
