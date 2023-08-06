@@ -1,5 +1,5 @@
 /* Estructura principal */
-.tarea-formulario{
+.tarea-formulario {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -8,8 +8,8 @@
 
 /* Campo de texto */
 
-.tarea-input{
-    width: 400px;
+.tarea-input {
+    width: 500px;
     font-size: 18px;
     background-color: white;
     padding: 14px 32px 14px 16px;
@@ -20,7 +20,7 @@
 
 /* Boton Agregar Tarea */
 
-.tarea-boton{
+.tarea-boton {
     padding: 16px;
     font-size: 18px;
     font-family: sans-serif;
@@ -28,6 +28,21 @@
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     outline: none;
-    background-color: #3c50e8;
+    background-color: #2e398b;
     color: white;
+}
+
+@media (max-width: 576px) {
+    .tarea-formulario{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .tarea-input{
+        font-size: 14px;
+    }
+
+    .tarea-boton{
+        font-size: 14px;
+    }
 }
