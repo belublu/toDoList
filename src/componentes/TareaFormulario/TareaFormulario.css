@@ -46,3 +46,18 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 768px) {
+    .tarea-input{
+        height: 40px;
+        width: 250px;
+    }
+
+    .tarea-boton{
+        height: 40px;
+        padding: 10px;
+    }
+    /* .tarea-formulario {
+        display: inline;
+    } */
+}

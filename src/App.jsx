@@ -18,11 +18,11 @@ function App() {
         </Col>
       </Row>
 
-      <Row className="d-flex justify-content-center">
+      <Row className="d-flex justify-content-center row-tareas">
         <Col xs={12} sm={12} md={6} lg={4}>
           <div className="tareas-lista-principal p-3">
             <h3>Mis Tareas</h3>
-            <ListaDeTareas/>
+            <ListaDeTareas />
           </div>
         </Col>
       </Row>

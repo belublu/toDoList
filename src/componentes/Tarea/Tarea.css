@@ -70,13 +70,57 @@
   background-color: rgb(134, 134, 196);
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) and (max-width: 734px){
   .tarea-contenedor{
     min-height: 65px;
   }
 
   .tarea-texto {
     font-size: 15px; 
+  }
+
+  .tarea-icono{
+    width: 22px;
+  }
+} */
+
+/* @media (orientation: landscape){
+  .tarea-input{
+    font-size: 12px;
+  }
+
+  .tarea-boton{
+    font-size: 12px;
+  }
+} */
+
+@media (max-width: 320px){
+  .tarea-input{
+    font-size: 12px;
+  }
+
+  .tarea-boton{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px){
+  .tarea-contenedor{
+    min-height: 30px;
+    width: 315px;
+    padding: 2px 10px 2px 15px;
+  }
+
+  .tarea-input{
+    font-size: 13px;
+  }
+
+  .tarea-boton{
+    font-size: 13px;
+  }
+
+  .tarea-texto{
+    font-size: 15px;
   }
 
   .tarea-icono{
