@@ -61,3 +61,13 @@
         display: inline;
     } */
 }
+
+@media (max-width: 836px){
+    .tarea-input{
+        height: 50px;
+    }
+
+    .tarea-boton{
+        height: 50px;
+    }
+}

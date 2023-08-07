@@ -96,13 +96,13 @@ html {
   .tareas-lista-principal h3 {
     font-size: 20px;
   }
-
-/*   .tareas-lista-principal{
-    display: flex;
-    flex-direction: row;
-  } */
+}
 
 
+@media (max-width: 836px){
+  .tareas-lista-principal h3 {
+    font-size: 18px;
+  }
 }
 
 /* @media (orientation: landscape){
